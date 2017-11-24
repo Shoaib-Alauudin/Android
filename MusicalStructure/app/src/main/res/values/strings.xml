@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="menu_description">Menu of the app. Here the user can choose what he needs.     It would use the public class CardView from Android to display the menu as cards.</string>
+    <string name="player">Player</string>
+    <string name="playlist">Playlist</string>
+    <string name="albums">Albums</string>
+    <string name="setting">Settings</string>
+    <string name="song_description">Song Description</string>
+    <string name="showSongLyrics">Show song lyrics</string>
+    <string name="settingsDescription">Settings screen. Here the user can adjust the configuration
+        of the app.</string>
+    <string name="musicquality">Music Quality</string>
+    <string name="playlistsDescription">Playlists. Here the user can see, edit and choose to play
+        a custom playlist.</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ghulam.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Quiz_Index_Activity"
+            android:label="Select Quiz Type"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Quiz_Instructions"
+            android:label="Quiz Instruction"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".Best_Score"
+            android:label="Best Score"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".Bussiness_Quiz_Activity"
+            android:label="Bussiness Quiz"
+            android:parentActivityName=".Quiz_Index_Activity" />
+        <activity
+            android:name=".Iq_Quiz"
+            android:label="IQ Quiz"
+            android:parentActivityName=".Quiz_Index_Activity" />
+        <activity
+            android:name=".Sport_Quiz"
+            android:label="Sport Quiz"
+            android:parentActivityName=".Quiz_Index_Activity" />
+        <activity
+            android:name=".Geograpy_Quiz"
+            android:label="@string/geograpy_quiz"
+            android:parentActivityName=".Quiz_Index_Activity" />
+        <activity
+            android:name=".Animals_Quiz"
+            android:label="@string/animal_quiz"
+            android:parentActivityName=".Quiz_Index_Activity" />
+        <activity
+            android:name=".Science_Quiz"
+            android:label="@string/science_quiz"
+            android:parentActivityName=".Quiz_Index_Activity" />
+        <activity
+            android:name=".History_Quiz"
+            android:label="@string/history_quiz"
+            android:parentActivityName=".Quiz_Index_Activity" />
+        <activity
+            android:name=".Entertainment_Quiz"
+            android:label="@string/entertainment_quiz"
+            android:parentActivityName=".Quiz_Index_Activity"></activity>
+
+    </application>
+
+</manifest>

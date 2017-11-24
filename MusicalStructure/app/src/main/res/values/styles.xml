@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MusicPlayerButtons">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/p_m_8</item>
+    </style>
+
+    <style name="MusicPlayerDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MusicPlayerRadioGroup">
+        <item name="android:layout_width">match_parent </item>
+        <item name="android:layout_height">0dp </item>
+        <item name="android:layout_weight">1 </item>
+        <item name="android:orientation">horizontal </item>
+        <item name="android:layout_margin">@dimen/p_m_16 </item>
+    </style>
+
+    <style name="IndexDescription">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">@color/Index_Page_Description</item>
+    <item name="android:text">@string/menu_description</item>
+    <item name="android:layout_margin">@dimen/p_m_16</item>
+    </style>
+
+    <style name="CardViewButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/p_m_8</item>
+    </style>
+
+    <style name="playList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_marginBottom">@dimen/p_m_8</item>
+        <item name="android:padding">@dimen/p_m_8</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="playList_text_descriptions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">@dimen/p_m_8</item>
+        <item name="android:layout_marginBottom">@dimen/p_m_8</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="album_textView_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/p_m_8</item>
+        <item name="android:padding">@dimen/p_m_8</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+</resources>

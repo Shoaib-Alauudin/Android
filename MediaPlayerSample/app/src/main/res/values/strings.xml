@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MediaPlayerSample</string>
+    <string name="play">Play</string>
+    <string name="pause">pause</string>
+    <string name="music_player">Music Player</string>
+    <string name="time_from_start">time</string>
+    <string name="time_to_end">end time</string>
+    <string name="song_name">Song Title</string>
+    <string name="forward">Next</string>
+    <string name="stop">Stop</string>
+    <string name="backword">Back</string>
+</resources>

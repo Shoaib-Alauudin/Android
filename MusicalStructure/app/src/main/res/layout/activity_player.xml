@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/p_m_24"
+    android:paddingLeft="@dimen/p_m_24"
+    android:paddingTop="@dimen/p_m_16"
+    android:paddingBottom="@dimen/p_m_16"
+    tools:context="com.example.ghulam.musicalstructure.Player">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:src="@drawable/background" />
+
+        <TextView
+            android:text="@string/song_description"
+            style="@style/MusicPlayerDescription"/>
+
+        <RadioGroup
+            style="@style/MusicPlayerRadioGroup">
+
+            <ImageView
+                android:src="@drawable/play"
+                android:id="@+id/play"
+                style="@style/MusicPlayerButtons"/>
+
+            <ImageView
+                android:src="@drawable/pause"
+                android:id="@+id/pause"
+                style="@style/MusicPlayerButtons"/>
+
+            <ImageView
+                android:src="@drawable/s"
+                android:id="@+id/stop"
+                style="@style/MusicPlayerButtons"/>
+
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            style="@style/MusicPlayerRadioGroup">
+
+            <ImageView
+                android:src="@drawable/backward"
+                android:id="@+id/backword"
+                style="@style/MusicPlayerButtons"/>
+
+            <ImageView
+
+                android:id="@+id/forward"
+                android:src="@drawable/forward"
+                style="@style/MusicPlayerButtons"/>
+
+            <ImageView
+
+                android:id="@+id/shuffle"
+                android:src="@drawable/shuffle"
+                style="@style/MusicPlayerButtons"/>
+
+            <ImageView
+                android:id="@+id/repeat"
+                android:src="@drawable/repeat"
+                style="@style/MusicPlayerButtons"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

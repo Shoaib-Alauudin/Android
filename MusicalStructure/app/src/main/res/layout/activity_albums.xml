@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_background"
+    tools:context="com.example.ghulam.musicalstructure.Albums">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/p_m_8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/p_m_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/p_m_8">
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:textSize="@dimen/text_size_20"
+                    android:text="Album Title" />
+
+                <TextView
+                    style="@style/album_textView_style"
+                    android:text="Album discription"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/background1"
+                android:scaleType="fitXY"
+                android:padding="@dimen/p_m_8"
+                android:layout_marginBottom="@dimen/p_m_8"
+                android:background="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

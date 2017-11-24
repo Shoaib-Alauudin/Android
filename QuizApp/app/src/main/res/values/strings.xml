@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="categories">Quiz Categories</string>
+    <string name="select_quiz">Select Quiz</string>
+    <string name="quiz_instructions">Quiz Instructions</string>
+    <string name="your_best_score">Your best score</string>
+    <string name="geograpy_quiz">Geograpy Quiz</string>
+    <string name="animal_quiz">Animal Quiz</string>
+    <string name="science_quiz">Science Quiz</string>
+    <string name="history_quiz">History Quiz</string>
+    <string name="entertainment_quiz">Entertainment Quiz</string>
+    <string name="custom_layout_true">true</string>
+    <string name="custom_layout_false">false</string>
+    <string name="user_best_score_textView">Best Score</string>
+    <string name="score">0</string>
+    <string name="submit_button">Submit</string>
+
+
+    <string-array name="Questions">
+        <item>Which companies mobile phone are marketed with the slogan_ Big inside. Small outside</item>
+        <item>Which Indian Enterprise used the slogan - Improvement the quality of life</item>
+        <item>Which newspaper says You needn"t read us to understand us?</item>
+        <item>Which network marketing company sells with the slogan - Better Ideas - Better Life</item>
+        <item>Who has taken over as the Railway Board chairman after the previous one was asked to go on leave over railway accidents ?</item>
+        <item>Ravin Gandhi was referred to as an Indian pig by Trump supporters. He is CEO of which company ?</item>
+        <item>What is the title of the book written by Raghuram Rajan on his stint as RBI Governor ?</item>
+        <item>“Failing to Succeed” by K.Vaitheeswaran is a story of India’s first e-commerce venture that failed. Name the venture</item>
+        <item>A study has found that Eponymous firms earn higher profits the others . What are eponymous firms ?</item>
+        <item>What functionality does an Airbar offer to a laptop ?</item>
+        <item>Name this American businessman and financier, who started as a paper tycoon and after numerous attempts laid the Translatlantic telegraph cable ?</item>
+        <item>Who owns the popular American whiskey brand Jack Daniels ?</item>
+        <item>Identify this Indian American who been named as most influential 40 under 40 by Fortune magazine</item>
+        <item>What is unique about the payment wallet Hipbar that has got an RBI licence recently ?</item>
+        <item>Who has started India’s first scholarship fund of Rs 100 crore for online education ?</item>
+        <item>Along with PM Modi, one more Indian has been named in the Time 100 list of most influential people for the year. Name him</item>
+        <item>Which TCS Exec has joined Niti Aayog to head the Atal Innovation Mission ?</item>
+        <item>Which company has launched a flavoured milk brand VIO ?</item>
+        <item>Jimmy Wales of Wikipedia fame has now started a crowd sourced news site where reporters will check facts. What is it called ?</item>
+        <item>Identify this fashion retailer and his brand, who has recently overthrown Jeff Bezos to become the second richest man in the world.</item>
+    </string-array>
+
+
+    <string-array name="Quiz_Instructions">
+        <item>The quizzes consists of questions carefully designed to help you self-assess your comprehension of the information presented on the topics covered in the module. No data will be collected on the website regarding your responses or how many times you take the quiz</item>
+        <item>Each question in the quiz is of multiple-choice or "true or false" format. Read each question carefully, and click on the button next to your response that is based on the information covered on the topic in the module. Each correct or incorrect response will result in appropriate feedback immediately at the bottom of the screen.</item>
+        <item>After responding to a question, click on the "Next Question" button at the bottom to go to the next questino. After responding to the 8th question, click on "Close" on the top of the window to exit the quiz.</item>
+        <item>If you select an incorrect response for a question, you can try again until you get the correct response. If you retake the quiz, the questions and their respective responses will be randomized.</item>
+        <item>The total score for the quiz is based on your responses to all questions. If you respond incorrectly to a question or retake a question again and get the correct response, your quiz score will reflect it appropriately. However, your quiz will not be graded, if you skip a question or exit before responding to all the questions.</item>
+    </string-array>
+
+</resources>

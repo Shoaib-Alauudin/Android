@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.ghulam.quizapp.Quiz_Index_Activity">
+
+        <TextView
+            android:id="@+id/quiz_categories_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/categories"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/bussiness_quiz"
+            style="@style/quiz_categories_leftside_images"
+            android:background="@drawable/bussiness"
+            android:layout_below="@id/quiz_categories_textView"
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:id="@+id/iq_quiz"
+            style="@style/quiz_categories_rightside_images"
+            android:background="@drawable/iq"
+            android:layout_below="@id/quiz_categories_textView"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/sport_quiz"
+            style="@style/quiz_categories_leftside_images"
+            android:src="@drawable/sport"
+            android:layout_below="@id/bussiness_quiz"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:id="@+id/geograpy_quiz"
+            style="@style/quiz_categories_rightside_images"
+            android:background="@drawable/geography"
+            android:layout_alignRight="@id/sport_quiz"
+            android:layout_below="@id/iq_quiz"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/animal_quiz"
+            style="@style/quiz_categories_leftside_images"
+            android:background="@drawable/animal"
+            android:layout_below="@id/sport_quiz"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:id="@+id/science_quiz"
+            style="@style/quiz_categories_rightside_images"
+            android:background="@drawable/science"
+            android:layout_alignRight="@id/animal_quiz"
+            android:layout_below="@id/geograpy_quiz"
+            android:layout_alignParentRight="true"/>
+
+
+        <ImageView
+            android:id="@+id/history_quiz"
+            style="@style/quiz_categories_leftside_images"
+            android:background="@drawable/history"
+            android:layout_below="@id/animal_quiz"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:id="@+id/entertainment_quiz"
+            style="@style/quiz_categories_rightside_images"
+            android:background="@drawable/entertainment"
+            android:layout_alignRight="@id/history_quiz"
+            android:layout_below="@id/science_quiz"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+</ScrollView>

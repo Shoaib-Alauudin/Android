@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.ghulam.quizapp.MainActivity">
+
+    <Button
+        android:id="@+id/select_quiz_buttonView"
+        style="@style/main_activity_button"
+        android:text="@string/select_quiz"
+        android:onClick="categoriesbutton"/>
+
+    <Button
+        android:id="@+id/quiz_instructions_buttonView"
+        style="@style/main_activity_button"
+        android:text="@string/quiz_instructions" />
+
+    <Button
+        android:id="@+id/best_score_buttonView"
+        style="@style/main_activity_button"
+        android:text="@string/your_best_score" />
+
+</LinearLayout>
